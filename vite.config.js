@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/floodgov/", // matches your repo name
 });
-// Compare this snippet from projectimprov/src/main.jsx:
